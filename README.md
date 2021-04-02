@@ -1,5 +1,7 @@
 # ember-md-block
 
+[![Build Status](https://github.com/concordnow/ember-md-block/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/concordnow/ember-md-block/actions/workflows/main.yml)
+
 Insert markdown blocks in your template files.
 They will be compiled into html at build time.
 
