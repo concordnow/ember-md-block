@@ -21,6 +21,7 @@
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
+    "test:lib": "qunit lib/tests/**/*.js",
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
