@@ -1,8 +1,8 @@
 {
   "name": "ember-md-block",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
-  "keywords": ["ember-addon"],
+  "description": "Insert markdown blocks in your hbs.",
+  "keywords": ["ember-addon", "markdown", "handlebars", "htmlbars"],
   "repository": "",
   "license": "MIT",
   "author": "",
