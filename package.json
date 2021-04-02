@@ -2,9 +2,7 @@
   "name": "ember-md-block",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
-  "keywords": [
-    "ember-addon"
-  ],
+  "keywords": ["ember-addon"],
   "repository": "",
   "license": "MIT",
   "author": "",
