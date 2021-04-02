@@ -1,8 +1,13 @@
 {
   "name": "ember-md-block",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Insert markdown blocks in your hbs.",
-  "keywords": ["ember-addon", "markdown", "handlebars", "htmlbars"],
+  "keywords": [
+    "ember-addon",
+    "markdown",
+    "handlebars",
+    "htmlbars"
+  ],
   "repository": "",
   "license": "MIT",
   "author": "",
