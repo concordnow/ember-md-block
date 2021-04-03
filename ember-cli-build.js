@@ -5,6 +5,13 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 module.exports = function (defaults) {
   let app = new EmberAddon(defaults, {
     // Add options here
+    // Those option are just to test the options system
+    'ember-md-block': {
+      blockRegexes: {
+        begin: /\bCUSTOM-BLOCK\b/,
+        end: /\bCUSTOM-BLOCK\b/,
+      },
+    },
   });
 
   /*

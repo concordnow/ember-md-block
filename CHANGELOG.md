@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix preprocessor when used as an addon
+- Fix addon options
+
 ## [0.1.0] - 2021-04-02
 
 ### Added
@@ -15,6 +20,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.0] - 2021-04-02
 
-
-[Unreleased]: https://github.com/concordnow/ember-md-block/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/concordnow/ember-md-block/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/concordnow/ember-md-block/compare/null...v0.1.0
