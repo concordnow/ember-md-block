@@ -8,7 +8,10 @@
     "handlebars",
     "htmlbars"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/concordnow/ember-md-block.git"
+  },
   "license": "MIT",
   "author": "",
   "directories": {
