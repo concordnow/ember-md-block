@@ -13,7 +13,7 @@
     "url": "https://github.com/concordnow/ember-md-block.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Concord",
   "directories": {
     "doc": "doc",
     "test": "tests"
