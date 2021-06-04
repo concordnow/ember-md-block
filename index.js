@@ -11,7 +11,7 @@ const DEFAULT_OPTIONS = {
 module.exports = {
   name: require('./package').name,
 
-  mdBlockOptions: function () {
+  mdBlockOptions() {
     let app = this._findHost();
     let options = Object.assign(
       {},
@@ -20,6 +20,13 @@ module.exports = {
     );
 
     return options;
+  },
+
+  included() {
+    this._super.included.apply(this, arguments);
+
+    let app = this._findHost();
+    this.setupPreprocessorRegistry('parent', app.registry);
   },
 
   setupPreprocessorRegistry(type, registry) {
