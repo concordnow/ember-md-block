@@ -35,19 +35,20 @@
   },
   "dependencies": {
     "broccoli-stew": "^3.0.0",
-    "ember-cli-babel": "^7.23.0",
+    "ember-cli-babel": "^7.26.6",
     "ember-cli-htmlbars": "^5.3.1",
     "markdown-wasm": "^1.1.2"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
-    "@ember/test-helpers": "^2.1.4",
+    "@ember/test-helpers": "^2.4.2",
+    "@embroider/test-setup": "^0.45.0",
     "@glimmer/component": "^1.0.3",
     "@glimmer/tracking": "^1.0.3",
     "@release-it/keep-a-changelog": "^2.2.2",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.10.1",
+    "ember-auto-import": "^2.2.0",
     "ember-cli": "~3.24.0",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-inject-live-reload": "^2.0.2",
@@ -74,10 +75,11 @@
     "prettier": "^2.2.1",
     "qunit": "^2.13.0",
     "qunit-dom": "^1.6.0",
-    "release-it": "^14.5.1"
+    "release-it": "^14.5.1",
+    "webpack": "^5.57.0"
   },
   "engines": {
-    "node": "10.* || >= 12"
+    "node": "12.* || 14.* || >= 16"
   },
   "ember": {
     "edition": "octane"

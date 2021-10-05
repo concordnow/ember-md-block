@@ -10,7 +10,7 @@ on:
     - cron: '0 3 * * *' # daily, at 3am
 
 env:
-  NODE_VERSION: '10'
+  NODE_VERSION: '12'
 
 jobs:
   test:
@@ -64,8 +64,8 @@ jobs:
           - ember-canary
           - ember-classic
           - ember-default-with-jquery
-            #- embroider-safe
-            #- embroider-optimized
+          - embroider-safe
+          - embroider-optimized
 
     steps:
       - uses: actions/checkout@v2

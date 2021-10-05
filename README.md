@@ -9,7 +9,8 @@ They will be compiled into html at build time.
 
 - Ember.js v3.16 or above
 - Ember CLI v2.13 or above
-- Node.js v10 or above
+- Node.js v12 or above
+- ember-auto-import >= 2
 
 ## Installation
 
